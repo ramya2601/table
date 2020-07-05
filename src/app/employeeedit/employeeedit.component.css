@@ -1,0 +1,32 @@
+.edit{
+    position: absolute;
+    border: 1px solid black;
+    left:500px;
+    top:150px;
+    width: 350px;
+    height:400px;
+    padding-left: 30px;
+
+}
+button{
+    margin-right: 30px;
+    border-radius:5px;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+#empname{
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px 10px;
+}
+#age{
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px 10px;
+}
+#sal{
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,49 @@
+.Update{
+    position: absolute;
+    border: 1px solid black;
+    left:500px;
+    top:100px;
+    width: 350px;
+    height:400px;
+    padding-left: 30px;
+
+}
+button{
+    margin-right: 30px;
+    border-radius:5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(41, 41, 240);
+  color: white;
+}
+#empname{
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px 10px;
+}
+#age{
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px 10px;
+}
+#sal{
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 5px 10px;
+}
+table,th,td{
+  margin: auto;
+  border:1px solid #000000;
+  text-align: center;
+  padding: 5px;
+  width:500px;
+}
+table
+{
+border-collapse: collapse;
+
+}
+th{
+  background-color: orangered;
+  color:white;
+}

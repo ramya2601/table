@@ -1,0 +1,36 @@
+
+<div class="Update">
+    <h3>Employee Details</h3>
+    <h4>Name</h4>
+    <input type="text" id="empname"><br>
+    <h4>Age</h4>
+    <input type="number" id="age"><br>
+    <h4>Salary</h4>
+    <input type="number" id="sal"><br><br>
+    <button routerLink="/employeelist" >Goto employee list</button>
+    <br><br><br><br><br>
+    
+    <table>
+            <tr>
+                <th>S.No</th>
+                <th>Title</th>
+                <th>UserId</th>
+            </tr>
+            <tr *ngFor="let y of employeePosts">
+    
+                
+                <td>
+                    {{y.id}}
+                </td>
+                <td>
+             {{y.title}} 
+                </td>
+                <td>
+                 {{y.userId}}
+                    </td>
+    
+            </tr>
+            
+        </table>
+</div>
+

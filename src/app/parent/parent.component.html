@@ -1,0 +1,13 @@
+<p>This is parent Component</p>
+{{name}}<br>
+<p>The String length is
+{{stringLength}}</p>
+<input type="text" [(ngModel)]="name">
+<!--<div *ngIf="flag=true"> -->
+<div  *ngFor="let r of employeee">
+   {{r.name}}
+   {{r.id}}
+</div>
+ 
+<hr>
+<app-child [myName]="name" (mylength)="result($event)"></app-child>
